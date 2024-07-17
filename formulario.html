@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário de pesquisa</title>
+    </head>
+    <body>
+        <h1>Formulário de pesquisa de satisfação</h1>
+        <form method="post" action="">
+            <section>
+               
+                    <h2>Dados pessoais</h2>
+                <p>  
+                    <label for="nome">Nome:</label>
+                    <input type="text" placeholder="Seu nome" id="nome"/>   
+                </p> 
+                <p>                               
+                    <label for="email">E-mail:</label>
+                    <input type="email" placeholder="Seu e-mail" id="email"/>
+                </p>    
+                <p>    
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" placeholder="Seu telefone" id="telefone">              
+                </p>
+            </section>
+            <section>
+                <h2>Pesquisa</h2> 
+                    . Qual é o seu nível de satisfação com nossos produtos/serviços?
+                <p>
+                    <input type="radio" id="Muito satisfeito" name="nivel_satisfação"/>
+                    <label for="Muito satisfeito">Muito satisfeito</label>
+                    <input type="radio" id="Satisfeito" name="nivel_satisfação"/>
+                    <label for="Satisfeito">Satisfeito</label>
+                    <input type="radio" id="Neutro" name="nivel_satisfação"/>
+                    <label for="Neutro">Neutro</label>
+                    <input type="radio" id="Insatisfeito" name="nivel_satisfação"/>
+                    <label for="Insatisfeito">Insatisfeito</label>
+                    <input type="radio" id="Muito insatisfeito" name="nivel_satisfação"/>
+                    <label for="Muito insatisfeito">Muito insatisfeito</label>
+                </p>  
+                    . Como você avalia o atendimento ao cliente que recebeu? 
+                <p>
+                    <input type="radio" id="Excelente" name="nivel_atendimento"/>
+                    <label for="Excelente">Excelente</label>  
+                    <input type="radio" id="Bom" name="nivel_atendimento"/>
+                    <label for="Bom">Bom</label> 
+                    <input type="radio" id="Razoável" name="nivel_atendimento"/>
+                    <label for="Razoável">Razoável</label> 
+                    <input type="radio" id="Ruim" name="nivel_atendimento"/>
+                    <label for="Ruim">Ruim</label> 
+                    <input type="radio" id="Muito ruim" name="nivel_atendimento"/>
+                    <label for="Muito ruim">Muito ruim</label> 
+                </p>
+                <p>
+                    <label for="Experiência">. O que faria você continuar comprando nossos produtos/serviços:</label>
+                    <select>
+                        <option></option>
+                        <option>Qualidade</option>
+                        <option>Preço</option>
+                        <option>Atendimento</option>
+                        <option>Variedade</option>
+                        <option>Outros (especificar)</option>
+                    </select>
+                    <br>
+                    <textarea placeholder="Outros (especificar)"></textarea>
+                </p>
+            
+            <p>
+                <input type="checkbox" id="compartilhar_dados"/>
+                <label for="compartilhar_dados">Autorização para que suas respostas sejam compartilhadas com terceiros para fins de melhoria dos nossos produtos/serviços.</label>
+            </p>
+           </section>
+           <input type="submit" value="Enviar"/>
+        </form>
+    </body>
+</html>
