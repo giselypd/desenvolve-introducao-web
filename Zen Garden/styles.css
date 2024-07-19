@@ -1,0 +1,18 @@
+
+/* Color Theme Swatches in Hex */
+.background { color: #B4BEC9; }
+.color { color: #002333; }
+.color { color: #159A9C; }
+.Crevasse-4-hex { color: #DEEFE7; }
+.Crevasse-5-hex { color: #FFFFFF; }
+
+
+
+html {
+    background: #B4BEC9;
+    color: #002333;
+}
+
+h1 {
+    color: #159A9C;
+}
