@@ -1,0 +1,50 @@
+
+/* Color Theme Swatches in Hex */
+.background { color: #B4BEC9; }
+.color { color: #002333; }
+.color { color: #159A9C; }
+.Crevasse-4-hex { color: #DEEFE7; }
+.Crevasse-5-hex { color: #FFFFFF; }
+
+
+
+html {
+    background: #B4BEC9;
+    color: #002333;
+
+    font-size: 18px;
+    font-family:Helvetica, sans-serif ;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    color: #159A9C;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p{
+    text-indent: 1em;
+}
+
+.sumary {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+.abbr {
+    font-variant: small-caps;
+}
